@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKAN PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="names">AKAN <span>NAMES</span></h1>
+        <p>The Akan are mostly located along the coastal and central regions of Ghana and the Ivory Coast, with some others in Diaspora  also claim ancestry. Akan names are derived from Ghanian culture.  in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+    <div class="hero">
+        
+        <div class="content">
+            <h1>AKAN NAMES FORM</h1>
+            <form id="form">
+                <fieldset>
+                <legend>Input your DOB to get started:</legend>
+                Date:  <br> <input type="number" id="date" required><br>
+                Month: <br><input type="number" id="month" required><br>
+                Year:  <br><input type="number" id="year" required><br>
+                Gender:<br>
+                <select id="gender">
+                <option value="blank"></option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                </select>
+                </fieldset>
+                <br>
+                <input type="submit" value="Submit" id="submitButton"  onclick="generateName()">
+                </form><br>
+                <h2 class ="res" id="result">Results:</h2>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
